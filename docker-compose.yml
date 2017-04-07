@@ -1,0 +1,9 @@
+version: '2'
+services:
+  datasci:
+    build: .
+    volumes:
+        - ./data:/data
+        - ./work:/home/jovyan/work
+    ports:
+        - "8888:8888"
