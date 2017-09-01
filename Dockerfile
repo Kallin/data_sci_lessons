@@ -1,1 +1,1 @@
-FROM jupyter/datascience-notebook:bb222f49222e
+FROM jupyter/datascience-notebook:c8797824e8c0
