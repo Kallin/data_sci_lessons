@@ -6,4 +6,4 @@ services:
         - ./data:/data
         - ./work:/home/jovyan/work
     ports:
-        - "8889:8888"
+        - "8888:8888"
